@@ -48,9 +48,11 @@ class Home extends StatelessWidget {
                     height: 80,
                     padding: const EdgeInsets.all(16),
                     decoration: BoxDecoration(
-                        color: Theme.of(context).colorScheme.surfaceTint,
-                        borderRadius: const BorderRadius.vertical(
-                            top: Radius.circular(10))),
+                      color: Theme.of(context).colorScheme.surfaceTint,
+                      borderRadius: const BorderRadius.vertical(
+                        top: Radius.circular(10),
+                      ),
+                    ),
                     child: Stack(
                       children: [
                         Align(
