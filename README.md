@@ -41,3 +41,5 @@ Aqui vem um passo a passo para abrir e rodar o projeto.
 
 Gostou do projeto e quer conhecer mais? Você pode [acessar o curso](link) que desenvolve o projeto desde o começo!
 # gerenciamento-mobX
+
+flutter pub run build_runner watch

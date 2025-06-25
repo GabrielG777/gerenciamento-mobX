@@ -6,19 +6,18 @@ part 'carrinho_store.g.dart';
 class CarrinhoStore = _CarrinhoStore with _$CarrinhoStore;
 
 abstract class _CarrinhoStore with Store {
-  
   @observable
   int quantidadeCarrinho = 0;
 
   @action
-  void addCarrinho(){
-    quantidadeCarrinho ++;
+  void addCarrinho() {
+    quantidadeCarrinho++;
   }
 
   @action
-  void remove ( ){
-    if (quantidadeCarrinho > 0){
-      quantidadeCarrinho --;
+  void remove() {
+    if (quantidadeCarrinho > 0) {
+      quantidadeCarrinho--;
     }
   }
 }
